@@ -1,8 +1,8 @@
 # QualtricsDXA
 
 This package is Qualtrics' DXA iOS SDK to be used by iOS application via Swift Package Manager. 
-All the public APIs and supported scenarios are documented here: [SDK overview](https://api.qualtrics.com/43fcfbd59fcff-overview)
-The release notes for each version can be found here: [Release Notes](https://api.qualtrics.com/078815f3f0b0c-app-session-replay-release-notes)
+All the public APIs and supported scenarios are documented here: [SDK overview](https://api.qualtrics.com/43fcfbd59fcff-overview).
+The release notes for each version can be found here: [Release Notes](https://api.qualtrics.com/078815f3f0b0c-app-session-replay-release-notes).
 
 ## Installation
 
@@ -32,6 +32,8 @@ dependencies: [
     .package(url: "https://github.com/qualtrics/qualtrics-dxa-ios.git", .upToNextMinor(from: "0.3.0"))
 ]
 ```
+
+Use `.upToNextMinor` to take advantage of bug fixes and new features that are non-breaking, ensuring stability as the package progresses.
 
 #### 2. Add QualtricsDXA as a dependency to target that depends on the SDK:
 
