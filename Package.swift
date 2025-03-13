@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "QualtricsDXA",
-            url: "https://s3-us-west-2.amazonaws.com/si-mobile-sdks/dxa/ios/0.3.2/QualtricsDXA.zip",
-            checksum: "b7434a12b654da9ca13e7637a360d182d4795d70d2cf16e5e9e41e32d53db74a"
+            url: "https://s3-us-west-2.amazonaws.com/si-mobile-sdks/dxa/ios/0.3.3/QualtricsDXA.zip",
+            checksum: "ce76c6e2c9b81bef7af9210cef8d0094f4ed612ce333635c479ed5a217ad17b7"
         )
     ]
 )
